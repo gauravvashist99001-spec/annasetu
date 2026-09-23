@@ -1,5 +1,5 @@
 import { Building2, HandPlatter, Info, Leaf, Scale, Target } from 'lucide-react'
-import { Card, CardBody, CardHeader, DemoTag, StatCard } from '@/components/ui'
+import { Card, CardBody, CardHeader,  StatCard } from '@/components/ui'
 import { BarSeriesChart, DonutChart, TimeSeriesChart } from '@/components/charts/Charts'
 import { NetworkMap } from '@/components/map/NetworkMap'
 import { useData } from '@/context/DataContext'
@@ -14,7 +14,7 @@ export function ImpactDashboard({ anonymized }: { anonymized?: boolean }) {
   const co2 = s.food_diverted_kg * CO2E_PER_KG
   return (
     <div className="space-y-4">
-      <div className="flex items-center gap-2"> <span className="text-xs text-ink-subtle">Prototype figures — computed from confirmed deliveries in production.</span></div>
+      <div className="flex items-center gap-2"><span className="text-xs text-ink-subtle">Prototype figures — computed from confirmed deliveries in production.</span></div>
       <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-5">
         <StatCard label="Meals Rescued" value={fmtNum(s.meals_rescued)} icon={<HandPlatter className="size-4" />} delta={{ value: '25%', direction: 'up', good: true, label: 'vs last month' }} />
         <StatCard label="Food Saved" value={fmtNum(s.food_diverted_kg)} unit="kg" icon={<Scale className="size-4" />} />
