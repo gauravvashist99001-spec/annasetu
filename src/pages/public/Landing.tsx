@@ -26,7 +26,7 @@ export default function Landing() {
                 <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-accent-700"><FlaskConical className="size-3.5" aria-hidden /> Explore Demo</p>
                 <h2 id="demo-title" className="mt-1 text-xl font-bold text-ink sm:text-2xl">Step into the platform — no sign-up needed.</h2>
               </div>
-              <p className="text-[13px] text-ink-subtle">Fictional demo data · nothing real is coordinated</p>
+              {/* <p className="text-[13px] text-ink-subtle">Fictional demo data · nothing real is coordinated</p> */}
             </div>
             <DemoRolePicker />
           </div>

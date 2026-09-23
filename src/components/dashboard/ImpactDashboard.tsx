@@ -14,7 +14,7 @@ export function ImpactDashboard({ anonymized }: { anonymized?: boolean }) {
   const co2 = s.food_diverted_kg * CO2E_PER_KG
   return (
     <div className="space-y-4">
-      <div className="flex items-center gap-2"><DemoTag /><span className="text-xs text-ink-subtle">Prototype figures — computed from confirmed deliveries in production.</span></div>
+      <div className="flex items-center gap-2"> <span className="text-xs text-ink-subtle">Prototype figures — computed from confirmed deliveries in production.</span></div>
       <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-5">
         <StatCard label="Meals Rescued" value={fmtNum(s.meals_rescued)} icon={<HandPlatter className="size-4" />} delta={{ value: '25%', direction: 'up', good: true, label: 'vs last month' }} />
         <StatCard label="Food Saved" value={fmtNum(s.food_diverted_kg)} unit="kg" icon={<Scale className="size-4" />} />

@@ -36,8 +36,8 @@ export function VerifiedBadge({ status, label, compact }: { status: Verification
 
 export function DemoTag({ className }: { className?: string }) {
   return (
-    <span className={cn('inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-md border border-dashed border-accent-500/60 bg-accent-50 px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-accent-700', className)}>
-      <FlaskConical className="size-3" aria-hidden /> Demo Data
+    <span className={cn('', className)}>
+      {/* <FlaskConical className="size-3" aria-hidden />  */}
     </span>
   )
 }

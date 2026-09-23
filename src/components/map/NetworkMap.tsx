@@ -208,7 +208,7 @@ export function NetworkMap({ organizations, routes = [], extras = [], anonymized
           )}
         </div>
       )}
-      <p className="absolute bottom-3 right-3 rounded bg-white/80 px-1.5 py-0.5 text-[10px] text-ink-subtle">Schematic map · Demo data</p>
+      <p className="absolute bottom-3 right-3 rounded bg-white/80 px-1.5 py-0.5 text-[10px] text-ink-subtle">Schematic map · </p>
     </div>
   )
 }

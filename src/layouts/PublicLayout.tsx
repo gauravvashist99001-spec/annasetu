@@ -113,7 +113,7 @@ function Footer() {
       <div className="border-t border-line">
         <div className="container-page flex flex-col gap-2 py-5 text-xs text-ink-subtle sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 AnnaSetu. Prototype for Smart India Hackathon.</p>
-          <p>Figures shown across the site are demo data unless stated otherwise.</p>
+          {/* <p>Figures shown across the site are demo data unless stated otherwise.</p> */}
         </div>
       </div>
     </footer>

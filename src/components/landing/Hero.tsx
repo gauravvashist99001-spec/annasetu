@@ -73,7 +73,7 @@ export function ImpactNumbers({ stats = platformStats }: { stats?: typeof platfo
         </div>
         <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-2.5 sm:px-6">
           <DemoTag />
-          <p className="text-right text-xs text-ink-subtle">Illustrative prototype figures — replaced by live platform data in production.</p>
+          {/* <p className="text-right text-xs text-ink-subtle">Illustrative prototype figures — replaced by live platform data in production.</p> */}
         </div>
       </div>
     </section>
