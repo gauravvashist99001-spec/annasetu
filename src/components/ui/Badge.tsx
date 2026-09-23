@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { BadgeCheck, Clock, FlaskConical, XCircle } from 'lucide-react'
+import { BadgeCheck, Clock, XCircle } from 'lucide-react'
 import type { DeliveryStatus, ListingStatus, RiskLevel, Urgency, VerificationStatus } from '@/types'
 import { cn } from '@/utils/cn'
 
